@@ -7,7 +7,7 @@
   ],
   "client": [
     "blockrendermixin",
-    "worldsquish"
+    "rendermixin"
   ],
   "injectors": {
     "defaultRequire": 1
