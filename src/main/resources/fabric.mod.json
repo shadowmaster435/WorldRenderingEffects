@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "worldrenderingeffects",
+  "version": "${version}",
+  "name": "WorldRenderingEffects",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/challengethings/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "shadowmaster435.worldrenderingeffects.client.WorldrenderingeffectsClient"
+    ],
+    "main": [
+      "shadowmaster435.worldrenderingeffects.Worldrenderingeffects"
+    ]
+  },
+  "mixins": [
+    "worldrenderingeffects.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.8",
+    "fabric": "*",
+    "minecraft": "1.16.4"
+  }
+}

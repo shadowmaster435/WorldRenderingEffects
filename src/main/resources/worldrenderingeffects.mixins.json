@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "shadowmaster435.worldrenderingeffects.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "blockrendermixin",
+    "worldsquish"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
